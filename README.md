@@ -1,11 +1,11 @@
-About r-matrixmodels
-====================
+About r-matrixmodels-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-matrixmodels-feedstock/blob/main/LICENSE.txt)
 
 Home: http://Matrix.R-forge.R-project.org/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-matrixmodels-feedstock/blob/main/LICENSE.txt)
 
 Summary: Modelling with sparse and dense 'Matrix' matrices, using modular prediction and response module classes.
 
