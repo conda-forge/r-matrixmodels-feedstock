@@ -1,4 +1,4 @@
-{% set version = "0.5-3" %}
+{% set version = "0.5-4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/MatrixModels_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/MatrixModels/MatrixModels_{{ version }}.tar.gz
-  sha256: c2db5406c6b0b9d348b44eea215a39c64fc087099fea1342a04d50326577f20f
+  sha256: f57af9e0a35a3fea77790e46846482c6c7de0d0ea1996a995a5924f2d41cf33c
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
